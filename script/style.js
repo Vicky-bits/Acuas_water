@@ -1,4 +1,11 @@
 
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('header .navbar ul');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+
 document.addEventListener('DOMContentLoaded', function() {
 const featureSection = document.getElementById('our-feature');
     
