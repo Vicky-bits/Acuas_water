@@ -83,7 +83,8 @@ header .navbar .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    border-radius: 5px;
+    
+    
 }
 
 header .navbar .hamburger span {
@@ -91,6 +92,8 @@ header .navbar .hamburger span {
     width: 25px;
     background-color: #00D1F9;
     margin: 4px 0;
+    border: 3px;
+    border-radius: 2px;
     
 }
 
