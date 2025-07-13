@@ -92,6 +92,29 @@ header .navbar .hamburger span {
     margin: 4px 0;
     border-radius: 2px;
 }
+
+/* Show hamburger and hide nav links on small screens */
+@media (max-width: 768px) {
+  header .navbar ul {
+    display: none; /* hide nav links */
+    flex-direction: column;
+    background: #fff; /* optional: background for dropdown */
+    position: absolute;
+    top: 60px; /* adjust to your navbar height */
+    right: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  header .navbar .hamburger {
+    display: flex; /* show hamburger */
+  }
+
+  header .navbar ul.show {
+    display: flex; /* show nav links when toggled */
+  }
+}
+
 header .navbar ul{
     display: flex;
     flex-direction: row;
