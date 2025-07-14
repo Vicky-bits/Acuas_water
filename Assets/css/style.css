@@ -2001,7 +2001,7 @@ animation: spin 0.6s ease-out;
     position: absolute;
     width: 100%;
     height: auto;
-    top: 80px; /* adjust to your navbar height */
+    top: 70px; /* adjust to your navbar height */
     left: 20px;
     gap: 10px;
     padding: 20px;
