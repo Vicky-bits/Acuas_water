@@ -1999,9 +1999,9 @@ animation: spin 0.6s ease-out;
     flex-direction: column;
     background: #fff; /* optional: background for dropdown */
     position: absolute;
-    width: 150px;
+    width: 150%;
     height: auto;
-    top: 190px; /* adjust to your navbar height */
+    top: 140px; /* adjust to your navbar height */
     left: 20px;
     gap: 10px;
     padding: 20px;
