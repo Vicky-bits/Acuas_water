@@ -2000,7 +2000,7 @@ animation: spin 0.6s ease-out;
     background: #fff; /* optional: background for dropdown */
     position: absolute;
     width: 100vh;
-    height: 100vh;
+    height: auto;
     top: 86px; /* adjust to your navbar height */
     left: 20px;
     gap: 10px;
