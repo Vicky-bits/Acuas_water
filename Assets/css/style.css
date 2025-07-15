@@ -2003,7 +2003,7 @@ animation: spin 0.6s ease-out;
     /* height: auto; */
     top: 86px; /* adjust to your navbar height */
     left: 0;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
     border: red 1px solid;
     text-align: left !important;
