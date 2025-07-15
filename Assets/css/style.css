@@ -33,9 +33,7 @@ body {
 }
 
 .navdiv {
-    display: flex;
-    
-    
+    display: flex; 
 }
 
 .navdiv a{
@@ -61,6 +59,7 @@ header {
     top: 0;
     z-index: 1020;
     height: 50px;
+    width: 100%;
 }
 
 header .navbar{
@@ -117,6 +116,7 @@ header .navbar ul li a{
     color: #05012b;
     margin: 0px 25px 0px 0px;
     padding: 35px 0px;
+
 }
 
 /* .one-class:hover .triangle-icon1{
