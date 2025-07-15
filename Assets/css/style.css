@@ -2005,6 +2005,7 @@ animation: spin 0.6s ease-out;
     left: 20px;
     gap: 10px;
     padding: 20px;
+    border: red 1px solid;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   }
 
