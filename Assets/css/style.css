@@ -1930,14 +1930,13 @@ animation: spin 0.6s ease-out;
     background-color: #00cfff;
 } */
 
-
-
-.baby-text{
+.baby-text {
     display: flex;
     flex-direction: row;
     padding: 10px 0px 0px 40px ;
     gap:5px;
 }
+
 .baby-text a{   
     text-decoration: underline;
     color: #fff;
@@ -2006,7 +2005,7 @@ animation: spin 0.6s ease-out;
     left: 0;
     gap: 20px;
     padding: 20px;
-    /* border: red 1px solid; */
+    border: red 1px solid;
     text-align: left !important;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   }
@@ -2023,7 +2022,5 @@ animation: spin 0.6s ease-out;
   header .navbar ul.show {
     display: flex; /* show nav links when toggled */
   }
-
-
 }
 
