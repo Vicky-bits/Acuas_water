@@ -2010,7 +2010,7 @@ animation: spin 0.6s ease-out;
   }
 
    header .navbar ul li a {
-    text-align: left;
+    /* text-align: left; */
     text-decoration: none;
     
    }
