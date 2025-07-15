@@ -2006,11 +2006,12 @@ animation: spin 0.6s ease-out;
     gap: 10px;
     padding: 20px;
     border: red 1px solid;
+    text-align: left !important;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   }
 
    header .navbar ul li a {
-    text-align: left !important;
+    
     text-decoration: none;
     
    }
